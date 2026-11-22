@@ -1,0 +1,9 @@
+# Dependencies for single-model-llm-serving
+fastapi
+uvicorn
+torch
+transformers
+
+# vLLM: Linux/CUDA only — it does not install on native Windows.
+# Pin to the version you have tested against, e.g.:
+# vllm==0.6.6
